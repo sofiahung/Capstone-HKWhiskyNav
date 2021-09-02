@@ -3,7 +3,7 @@
 # HK WhiskyNav
 - An all-in-one application built to accompany users from knowing whisky to taking one (or more) bottle(s) of whisky into their life!
 - A built-from-scratch but comprehensive application incorporating different data science and machine learning techniques, including web-scraping, data visualization, natural language processing, machine learning, deep learning and recommendation system.
-- A 3 weeks Capstone project for a team of 4 human beings to showcase what we have learnt in the Bootcamp!
+- A 3-week Capstone project for a team of 4 human beings to showcase what we have learnt in the Bootcamp!
 
 
 ## Final product 
@@ -44,6 +44,8 @@ To have a thorough whisky availability and price data, we web-scraped for the wh
 <img width="695" src="https://user-images.githubusercontent.com/80333521/131852880-41343aed-1896-4738-a036-17514fad8d1a.png">
 
 
-### Episode 2 - Image Recognition
+## Episode 2 - Image Recognition
 
-### Episode 3 - Flavour Analysis & Recommendation System
+
+
+## Episode 3 - Flavour Analysis & Recommendation System
