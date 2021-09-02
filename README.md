@@ -1,4 +1,4 @@
-<img width="695" alt="pathways" src="https://user-images.githubusercontent.com/80333521/131840039-24630bbe-d5c1-4237-9406-380ec6c49451.png">
+<img width="780" alt="pathways" src="https://user-images.githubusercontent.com/80333521/131840039-24630bbe-d5c1-4237-9406-380ec6c49451.png">
 
 # HK WhiskyNav
 - An all-in-one application accompanying users from knowing whisky to taking one (or more) bottle(s) of whisky into their life!
