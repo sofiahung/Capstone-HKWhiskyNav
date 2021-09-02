@@ -1,4 +1,4 @@
-<img width="820" src="https://user-images.githubusercontent.com/80333521/131840039-24630bbe-d5c1-4237-9406-380ec6c49451.png">
+<img width="850" src="https://user-images.githubusercontent.com/80333521/131840039-24630bbe-d5c1-4237-9406-380ec6c49451.png">
 
 # HK WhiskyNav
 - An all-in-one application built to accompany users from knowing whisky to taking one (or more) bottle(s) of whisky into their life!
@@ -36,10 +36,11 @@ To train our model for whisky recognition, we downloaded 20 to 30 images for eac
 
 
 #### 3. Whisky flavour profile
-
+To have a flavour analysis on whisky, we scraped the tasting notes given by whisky expert in the International Whisky Community and reviews from the general public.
 <img width="695" src="https://user-images.githubusercontent.com/80333521/131846860-df441868-2834-4fab-aa15-9780d5b73e24.png">
 
 #### 4. Availability in Hong Kong
+
 
 ### Episode 2 - Image Recognition
 
