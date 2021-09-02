@@ -1,5 +1,5 @@
 # HK WhiskyNav
-- All-in-one application accompanying users from knowing whisky to taking one (or more) bottle(s) of whisky into their life!
+- An all-in-one application accompanying users from knowing whisky to taking one (or more) bottle(s) of whisky into their life!
 - A comprehensive, built-from-scratch application incorporating different data science and machine learning techniques, including web-scraping, data visualization, natural language processing, machine learning, deep learning and recommendation system.
 
 
