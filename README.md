@@ -53,8 +53,8 @@ However, it failed to locate and identify the text with only a mild divergence f
 
 Therefore, we changed our approach. We instead chose to use Convolutional Neural Network (CNN) for feature extraction on the image that contains a whole whisky bottle and customized an additional layer to replace the classification layer originally included in InceptionV3 for identifying our 100 different brands and years of whiskies.
 
-<img width="695" src="https://user-images.githubusercontent.com/80333521/131958620-195e3035-566b-4d89-b896-534e27b71359.png">
 <img width="695" src="https://user-images.githubusercontent.com/80333521/131958717-bc64455c-44f5-49c4-a3e2-0bee6c2c96e1.png">
+<img width="695" src="https://user-images.githubusercontent.com/80333521/131958620-195e3035-566b-4d89-b896-534e27b71359.png">
 <img width="695" src="https://user-images.githubusercontent.com/80333521/131959117-5cf46842-9367-42f9-9f23-ed41e1fe48ac.png">
 
 The 57% accuracy achieved by this approach is not satisfactory, notwithstanding the long hours spent on training this model. 
@@ -74,7 +74,7 @@ Fortunately, we achieved a better result with a much higher accuracy.
 
 By reducing the learning rate and cutting the batch size by half whenever the accuracy plateaued (i.e. the green lines on the graph), it was to assist the model to find the steepest descent and to achieve greater accuracy.
 
-###### After the completion of this project, we learnt that there were data leakage during the training which would result in closed training and validation accuracy. Luckily, it does not have adverse effects on the recognition and the implementation of it on our application. However, here is one of the most important lesson learnt to guide us to have thought more precisely in the future.
+###### **After the completion of this project, we learnt that there were data leakage during the training which would result in close training and validation accuracy. Luckily, it does not have adverse effects on the recognition and the implementation of it on our application. However, here is one of the most important lesson learnt to guide us to have thought more precisely in the future.*
 
 ### Implementation of the model
 <img width="695" src="https://user-images.githubusercontent.com/80333521/131966854-b1010d78-1d70-4212-92e6-fba9bfebf33b.png">
@@ -84,3 +84,4 @@ By reducing the learning rate and cutting the batch size by half whenever the ac
 
 <br><br />
 ## Episode 3 - Flavour Analysis & Recommendation System
+
