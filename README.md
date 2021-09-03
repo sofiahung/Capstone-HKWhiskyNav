@@ -4,7 +4,6 @@
 - An all-in-one application built to accompany users from knowing whisky to taking one (or more) bottle(s) of whisky into their life!
 - A built-from-scratch but comprehensive application incorporating different data science and machine learning techniques, including web-scraping, data visualization, natural language processing, machine learning, deep learning and recommendation system.
 - A 3-week Capstone project for a team of 4 human beings to showcase what we have learnt in the Bootcamp!
-
 <br><br />
 ## Final product 
 
