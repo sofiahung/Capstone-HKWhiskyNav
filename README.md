@@ -5,7 +5,7 @@
 - A built-from-scratch but comprehensive application incorporating different data science and machine learning techniques, including web-scraping, data visualization, natural language processing, machine learning, deep learning and recommendation system.
 - A 3-week Capstone project for a team of 4 human beings to showcase what we have learnt in the Bootcamp!
 
-
+<br><br />
 ## Final product 
 
 - 2 pathways for input
@@ -15,12 +15,13 @@
 
 https://user-images.githubusercontent.com/80333521/131822984-9f72f09e-22e3-4678-93d0-73cea744e26b.mp4
 
+<br><br />
 ## The Building Process
 We have split the whole development of application into 3 episodes.
 
 <img width="695" src="https://user-images.githubusercontent.com/80333521/131829517-5e46525b-edc7-49e0-a6b9-cda90e6dc38b.png">
 
-
+<br><br />
 ## Episode 1 - Data Collection
 ### Data to be collected:
 <img width="695" src="https://user-images.githubusercontent.com/80333521/131839323-5287f781-42e5-42fa-ac44-782484d8cb1f.png">
@@ -43,7 +44,7 @@ To have a flavour analysis on whisky, we web-scraped the tasting notes given by 
 To have a thorough whisky availability and price data, we web-scraped for the whisky info, price and selling locations from three major online retailers and platforms in Hong Kong (Watson's Wine, HK Liqour Store & Price.com). We then cleansed the data and visualized it using histogram and a URL linked to the address.
 <img width="695" src="https://user-images.githubusercontent.com/80333521/131852880-41343aed-1896-4738-a036-17514fad8d1a.png">
 
-
+<br><br />
 ## Episode 2 - Image Recognition
 At first, we proposed to use OpenCV EAST and Tesseract for the text detection and recognition on the label of a whisky bottle. 
 However, it failed to locate and identify the text with only a mild divergence from a plain, clear image.
@@ -81,5 +82,5 @@ By reducing the learning rate and cutting the batch size by half whenever the ac
 <img width="695" src="https://user-images.githubusercontent.com/80333521/131966806-8ffbd49f-d525-4a73-a597-f33ff1a6b15b.png">
 <img width="695" src="https://user-images.githubusercontent.com/80333521/131966947-f5741f24-7e28-455a-92a9-7f4b6c86476a.png">
 
-
+<br><br />
 ## Episode 3 - Flavour Analysis & Recommendation System
