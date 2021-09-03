@@ -45,6 +45,12 @@ To have a thorough whisky availability and price data, we web-scraped for the wh
 
 
 ## Episode 2 - Image Recognition
+At first, we proposed to use OpenCV EAST and Tesseract for the text detection and recognition on the label of a whisky bottle. 
+However, it failed to locate and identify the text with only a mild divergence from a plain, clear image.
+
+<img width="695" src="https://user-images.githubusercontent.com/80333521/131951494-1556bb8c-f82f-4162-8afc-27617b505cd7.png">
+
+Therefore, we changed our approach. We instead chose to use Convolutional Neural Network (CNN) for feature extraction on the whole image of a whisky bottle and customized an additional layer to replace the top, trained CNN layer originally placed in InceptionV3 for identifying our 100 different brands and years of whiskies.
 
 
 
