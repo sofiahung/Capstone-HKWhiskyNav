@@ -71,7 +71,15 @@ To improve the model, we fine-tuned it by making a few adjustments:
 Fortunately, we achieved a better result with a much higher accuracy.
 <img width="695" src="https://user-images.githubusercontent.com/80333521/131962436-cc43f336-3c67-4f41-bf96-9658647fe64e.png">
 
+By reducing the learning rate and cutting the batch size by half whenever the accuracy plateaued (i.e. the green lines on the graph), it was to assist the model to find the steepest descent and to achieve greater accuracy.
+
 ###### After the completion of this project, we learnt that there were data leakage during the training which would result in closed training and validation accuracy. Luckily, it does not have adverse effects on the recognition and the implementation of it on our application. However, here is one of the most important lesson learnt to guide us to have thought more precisely in the future.
+
+### Implementation of the model
+<img width="695" src="https://user-images.githubusercontent.com/80333521/131966854-b1010d78-1d70-4212-92e6-fba9bfebf33b.png">
+<img width="695" src="https://user-images.githubusercontent.com/80333521/131966907-951d1e56-e3b1-43f0-8907-87619ca4605d.png">
+<img width="695" src="https://user-images.githubusercontent.com/80333521/131966806-8ffbd49f-d525-4a73-a597-f33ff1a6b15b.png">
+<img width="695" src="https://user-images.githubusercontent.com/80333521/131966947-f5741f24-7e28-455a-92a9-7f4b6c86476a.png">
 
 
 ## Episode 3 - Flavour Analysis & Recommendation System
