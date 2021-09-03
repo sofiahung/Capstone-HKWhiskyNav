@@ -50,8 +50,28 @@ However, it failed to locate and identify the text with only a mild divergence f
 
 <img width="695" src="https://user-images.githubusercontent.com/80333521/131951494-1556bb8c-f82f-4162-8afc-27617b505cd7.png">
 
-Therefore, we changed our approach. We instead chose to use Convolutional Neural Network (CNN) for feature extraction on the whole image of a whisky bottle and customized an additional layer to replace the top, trained CNN layer originally placed in InceptionV3 for identifying our 100 different brands and years of whiskies.
+Therefore, we changed our approach. We instead chose to use Convolutional Neural Network (CNN) for feature extraction on the image that contains a whole whisky bottle and customized an additional layer to replace the classification layer originally included in InceptionV3 for identifying our 100 different brands and years of whiskies.
 
+<img width="695" src="https://user-images.githubusercontent.com/80333521/131958620-195e3035-566b-4d89-b896-534e27b71359.png">
+<img width="695" src="https://user-images.githubusercontent.com/80333521/131958717-bc64455c-44f5-49c4-a3e2-0bee6c2c96e1.png">
+<img width="695" src="https://user-images.githubusercontent.com/80333521/131959117-5cf46842-9367-42f9-9f23-ed41e1fe48ac.png">
+
+The 57% accuracy achieved by this approach is not satisfactory, notwithstanding the long hours spent on training this model. 
+
+To improve the model, we fine-tuned it by making a few adjustments:
+- Cropped out only the bottles of whisky (eliminate the noisy background)
+<img width="695" src="https://user-images.githubusercontent.com/80333521/131960279-01fbafa6-daf9-4716-a576-959a96bc730f.png">
+
+- Augmented the images with random effects and random magnitude for each image
+<img width="695" src="https://user-images.githubusercontent.com/80333521/131960316-d95e47ef-eadc-401f-89d7-3ebf3b03bace.png">
+
+- Fed the model with non-whisky classes
+<img width="695" src="https://user-images.githubusercontent.com/80333521/131960361-24d7ac59-6162-4077-a555-8a4023073fe2.png">
+
+Fortunately, we achieved a better result with a much higher accuracy.
+<img width="695" src="https://user-images.githubusercontent.com/80333521/131962436-cc43f336-3c67-4f41-bf96-9658647fe64e.png">
+
+###### After the completion of this project, we learnt that there were data leakage during the training which would result in closed training and validation accuracy. Luckily, it does not have adverse effects on the recognition and the implementation of it on our application. However, here is one of the most important lesson learnt to guide us to have thought more precisely in the future.
 
 
 ## Episode 3 - Flavour Analysis & Recommendation System
