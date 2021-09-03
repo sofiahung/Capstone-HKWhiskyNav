@@ -46,7 +46,7 @@ To have a thorough whisky availability and price data, we web-scraped for the wh
 <br><br />
 ## Episode 2 - Image Recognition
 At first, we proposed to use OpenCV EAST and Tesseract for the text detection and recognition on the label of a whisky bottle. 
-However, it failed to locate and identify the text with only a mild divergence from a plain, clear image.
+However, it failed to locate and identify the text even with only a mild divergence from a plain, clear image.
 
 <img width="695" src="https://user-images.githubusercontent.com/80333521/131951494-1556bb8c-f82f-4162-8afc-27617b505cd7.png">
 
