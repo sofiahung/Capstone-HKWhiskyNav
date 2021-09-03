@@ -83,4 +83,14 @@ By reducing the learning rate and cutting the batch size by half whenever the ac
 
 <br><br />
 ## Episode 3 - Flavour Analysis & Recommendation System
+To be able to provide a customized whisky recommendation for users, one must have a common ground about the taste or flavour of the whisky for users to communicate what they like or their preference upon choosing one whisky back home. 
+
+<img width="695" src="https://user-images.githubusercontent.com/80333521/131978249-4cda096e-622b-4471-98b2-b04d109c8c55.png">
+
+Researches had found that 12 flavours are sufficient for describing the taste of all available whiskies in the market. BINGO! We trust these masters and web-scraped the whisky flavour profile database (see below) for building our one-of-a-kind whisky recommendation system next.
+
+<img width="695" src="https://user-images.githubusercontent.com/80333521/131978319-9a1325a0-17f9-4a0f-81ca-21953e0e4c8e.png">
+
+
+
 
