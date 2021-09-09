@@ -41,6 +41,7 @@ To have a flavour analysis on whisky, we web-scraped the tasting notes given by 
 
 #### 4. Availability in Hong Kong
 To have a thorough whisky availability and price data, we web-scraped for the whisky info, price and selling locations from three major online retailers and platforms in Hong Kong (Watson's Wine, HK Liqour Store & Price.com). We then consolidated, cleansed and visualized the data using histogram and a URL linked to the address.
+
 <img width="695" src="https://user-images.githubusercontent.com/80333521/131852880-41343aed-1896-4738-a036-17514fad8d1a.png">
 
 <br><br />
