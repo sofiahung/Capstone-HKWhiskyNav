@@ -91,6 +91,11 @@ Researches had found that 12 flavours are sufficient for describing the taste of
 
 <img width="695" src="https://user-images.githubusercontent.com/80333521/131978319-9a1325a0-17f9-4a0f-81ca-21953e0e4c8e.png">
 
+To minimize the efforts our app users need to communicate their preference on whisky, Principal Component Analysis (PCA) is used to find out the minimum number of adjective that is able to describe utmost variance.
+<img width="695" src="https://user-images.githubusercontent.com/80333521/132619747-aca300c0-96aa-4015-972c-8ed2011f0692.png">
 
+However, the result showed that in order to explain 95% of variance, we need at least 10 components. Since this does not match our expectation of keeping the number of choices practical and hassle-free for users to choose from, we changed our approach again. 
 
+We preserved all 12 components, while extracting 4 most important flavours and setting the other 8 flavours as default value for both firstcomers and dedicated users to describe their preferred taste and enjoy a customized degree of customization. The question is how we do it? 
 
+<img width="695" src="https://user-images.githubusercontent.com/80333521/132621366-3d142174-e852-477e-86e8-39a60807a3e5.png">
