@@ -83,6 +83,7 @@ By reducing the learning rate and cutting the batch size by half whenever the ac
 
 <br><br />
 ## Episode 3 - Flavour Analysis & Recommendation System
+### A ) Flavour Profile Analysis
 To be able to provide a customized whisky recommendation for users, one must have a common ground about the taste or flavour of the whisky for users to communicate what they like or their preference upon choosing one whisky back home. 
 
 <img width="695" src="https://user-images.githubusercontent.com/80333521/131978249-4cda096e-622b-4471-98b2-b04d109c8c55.png">
@@ -109,3 +110,25 @@ The correlation matrix (on the left) and the coefficient (on the right) of all a
 - "Smokey" - the most powerful (negative) adjectives
 - "Fruity" - low correlation and more relatable than others
 
+### B ) Recommendation System
+According to the whisky-lover of our team, presence of a flavour is much more important than the intensity of it. This very much affect which measure to choose for our recommendation system.
+
+<img width="695" src="https://user-images.githubusercontent.com/80333521/132638544-d8fbd7a6-b48e-407c-8bf6-3301c5582993.png">
+
+From above, whisky 1 and 3 are smoky, while whisky 2 is a fruity one. Euclidean Distance would tell us whisky 2 and 3 are similar, while Cosine Distance would tell us whisky 1 and 3 are similar. For the case of whisky recommendation, we chose Cosine Distance as our metric to better match users' expectation.
+
+<img width="695" src="https://user-images.githubusercontent.com/80333521/132642837-3ca55d7e-f655-4349-8ba7-81755f729c5a.png">
+
+To provide a flavour description of whisky, we consolidated and web-scraped thousands of customer reviews of each whisky online and generated a Word Cloud using tf-idf, with all stop words filtered out. This allow our users to have a vivid imagination about the taste of the whisky simply by looking at the Word Cloud.
+
+### C ) Consolidation and App Development
+
+<img width="695" src="https://user-images.githubusercontent.com/80333521/132644061-224baf21-bbad-4ebb-bb69-0687d81a78d3.png">
+
+<br><br />
+## Challenges
+<img width="695" src="https://user-images.githubusercontent.com/80333521/132647322-855f38a1-fcc8-4864-a8cf-bbc967fa5b73.png">
+
+<br><br />
+## Next Steps
+<img width="695" src="https://user-images.githubusercontent.com/80333521/132647621-dce5d28d-18ab-4b10-b2ec-a655b5661aac.png">
