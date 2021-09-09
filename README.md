@@ -99,3 +99,13 @@ However, the result showed that in order to explain 95% of variance, we need at 
 We preserved all 12 components, while extracting 4 most important flavours and setting the other 8 flavours as default value for both firstcomers and dedicated users to describe their preferred taste and enjoy a customized degree of customization. The question is how we do it? 
 
 <img width="695" src="https://user-images.githubusercontent.com/80333521/132621366-3d142174-e852-477e-86e8-39a60807a3e5.png">
+
+As we didn't have the clustering label for all whiskies, we took a two-step approach. First, we used kMeans to figure out the label, then we used Logistic Regression to find out the feature importance of all 12 adjectives (flavours). The result of the kMeans clustering combined with elbow method suggested that it is at best to have 4 adjectives for clustering. What come next is: which 4 flavours to represent?
+
+<img width="695" src="https://user-images.githubusercontent.com/80333521/132635164-9970a24d-3175-40a5-81df-b532070f513d.png">
+
+The correlation matrix (on the left) and the coefficient (on the right) of all adjectives showed us some hints in choosing for our finale:
+- "Winey" & "Honey" - the 2 most powerful (positive) adjectives
+- "Smokey" - the most powerful (negative) adjectives
+- "Fruity" - low correlation and more relatable than others
+
